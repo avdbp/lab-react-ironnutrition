@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  box-shadow: 2px 2px 10px rgb(193, 190, 190);
+
+}
+
+.form {
+  margin-top :5%;
+  width: 500px;
+  margin-left: 35%;
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow:#282c34;
+  margin-bottom: 100px;
+  text-align: left;
+  box-shadow: 2px 2px 10px rgb(193, 190, 190);
+  font-size: 1.5rem;
+}
+
+.input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 500px;
+  font-size: 1.5rem;
+
+}
+
+.button-add {
+  background-color: rgb(46, 116, 213);
+  width: 100px;
+  height: 50px;
+  border-style: none ;
+  font-size: 1rem;
+  color: white;
+  border-radius: 10px;
+}
