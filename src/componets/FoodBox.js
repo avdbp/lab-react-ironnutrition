@@ -7,7 +7,7 @@ function FoodBox(props) {
   const { id, name, calories, image, servings } = props.food;
 
   const handleDeleteClick = () => {
-    props.onDelete(id); // Call the onDelete function with the food's id
+    props.onDelete(id);
   };
 
   return (

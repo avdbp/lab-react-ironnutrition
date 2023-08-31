@@ -8,7 +8,7 @@ function Search({ foods = [], setFilteredFoods = () => {} }) {
     const value = e.target.value;
     setSearchTerm(value);
   
-    if (foods) { // Check if foods is defined
+    if (foods) { 
       const filteredFoods = foods.filter((food) =>
         food.name.toLowerCase().includes(value.toLowerCase())
       );
