@@ -19,7 +19,8 @@ function Search({ foods = [], setFilteredFoods = () => {} }) {
 
   return (
     <div>
-      <input
+      <input 
+        className='search-bar'
         type="text"
         placeholder="Search for food..."
         value={searchTerm}
