@@ -22,8 +22,10 @@ function AddFoodForm({ onAddFood }) {
   };
 
   return (
+    
     <form className='form' onSubmit={handleSubmit}>
       <div >
+      <h1 className='h1-add-food'>Add Food</h1>
         <label htmlFor="name">Name:</label>
         <input
           className='input'
