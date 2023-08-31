@@ -81,4 +81,9 @@
 
 .h1-add-food {
   text-align: center;
+  font-size: 3rem;
+}
+
+.h1-food-list {
+  font-size: 5rem;
 }

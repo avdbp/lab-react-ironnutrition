@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Food List</h1>
+      <h1 className='h1-food-list'>Food List</h1>
       <Search foods={foods} setFilteredFoods={setFilteredFoods} />
       <Row gutter={[1, 1]}>
         {filteredFoods.map((food) => (
